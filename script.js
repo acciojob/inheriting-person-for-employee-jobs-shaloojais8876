@@ -21,9 +21,9 @@ class Person {
 	}
 
 const person = new Person("Alice",25)
-person1.greet();
+person.greet();
 const employee = new Employee("Bob",30,"Manager")
-employee1.jobGreet();
+employee.jobGreet();
 
 // Do not change code below this line
 window.Person = Person;
